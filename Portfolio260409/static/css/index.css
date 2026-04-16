@@ -1,0 +1,36 @@
+*{padding:0;margin:0}
+@font-face {
+    font-family: 'OngleipKonkon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@media(max-width:600px){
+body {
+    font-family: 'OngleipKonkon', sans-serif;font-size:2.5vw
+    }
+    ul li{float:left;line-height:10vh;width:calc(100vw / 3.5);text-align:center;
+    list-style-type:none;color:white}
+}
+@media(min-width:1024px){
+body {
+    font-family: 'OngleipKonkon', sans-serif;font-size:1.5vw
+    }
+    ul li{float:left;line-height:10vh;width:calc(100vw / 3.08);text-align:center;
+    list-style-type:none;color:white}
+}
+#header{height:20vh;background:LightCoral}
+#header h1{height:20vh;line-height:20vh;text-align: center;color:whitesmoke}
+ul{background:rgb(240, 189, 189);height:10vh}
+hr{border-color:lightcoral}
+nav{margin-bottom:0.5rem}
+ul li:hover{
+    position:relative;
+    left:-2px;
+    top:2px;
+    cursor:pointer
+}
+#close{cursor:pointer}
+#main_img{height:70vh;text-align:center;}
+.train_img img{width:23vw;height:20vh;border:1px solid black;border-radius:0.5rem;}
